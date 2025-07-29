@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Maxsus stil */
+.prose {
+  @apply text-gray-700;
+  line-height: 1.75;
+}
+
+.prose h2 {
+  @apply text-2xl font-bold mt-8 mb-4 text-gray-800;
+}
+
+.prose p {
+  @apply mb-4;
+}
+
+/* Animatsiyalar */
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+body {
+  scroll-behavior: smooth;
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
