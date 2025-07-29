@@ -135,14 +135,14 @@
         <p class="text-xl mb-8 max-w-2xl mx-auto">
           Eng so'ngi maqolalardan xabardor bo'lish uchun obuna bo'ling
         </p>
-        <div class="max-w-md mx-auto flex">
+        <div class="max-w-md mx-auto flex max-sm:flex-col md:flex-row">
           <input
             type="email"
             placeholder="Email manzilingiz"
-            class="flex-grow bg-gray-200 px-4 py-3 rounded-l-lg focus:outline-none text-gray-800"
+            class="flex-grow bg-gray-200 px-4 py-3 max-sm:rounded-sm md:rounded-l-lg focus:outline-none text-gray-800"
           />
           <button
-            class="px-6 py-3 bg-yellow-400 text-gray-900 font-semibold rounded-r-lg hover:bg-yellow-500 transition"
+            class="px-6 py-3 max-sm:my-2 md:my-0 bg-yellow-400 text-gray-900 font-semibold max-sm:rounded-sm md:rounded-r-lg hover:bg-yellow-500 transition"
           >
             Obuna Bo'lish
           </button>
